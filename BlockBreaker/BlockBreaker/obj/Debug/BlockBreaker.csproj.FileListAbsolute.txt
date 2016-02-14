@@ -1,0 +1,37 @@
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.exe
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.pdb
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.baml
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.g.cs
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\App.g.cs
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker_MarkupCompile.cache
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.g.resources
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.Properties.Resources.resources
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csproj.GenerateResource.Cache
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.exe
+E:\Visual Studio 2013\Projects\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.pdb
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.exe
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.pdb
+E:\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.exe
+E:\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.pdb
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csprojResolveAssemblyReference.cache
+E:\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.baml
+E:\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.g.cs
+E:\BlockBreaker\BlockBreaker\obj\Debug\App.g.cs
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker_MarkupCompile.cache
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.g.resources
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.Properties.Resources.resources
+E:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csproj.GenerateResource.Cache
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.exe
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.pdb
+F:\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.exe
+F:\BlockBreaker\BlockBreaker\bin\Debug\BlockBreaker.pdb
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csprojResolveAssemblyReference.cache
+F:\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.baml
+F:\BlockBreaker\BlockBreaker\obj\Debug\MainWindow.g.cs
+F:\BlockBreaker\BlockBreaker\obj\Debug\App.g.cs
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker_MarkupCompile.cache
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.g.resources
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.Properties.Resources.resources
+F:\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.csproj.GenerateResource.Cache
+B:\Programme\Visual Studio\Repos\BlockBreaker\BlockBreaker\obj\Debug\BlockBreaker.pdb
