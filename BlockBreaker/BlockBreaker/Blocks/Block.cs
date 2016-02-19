@@ -88,6 +88,10 @@ namespace BlockBreaker.Blocks
             return _location;
         }
 
+        virtual public bool hit() {
+            return true;
+        }
+
         //public virtual void Distroy(MainWindow window);
 
     }

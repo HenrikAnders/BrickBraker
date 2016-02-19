@@ -24,7 +24,7 @@ namespace BlockBreaker
         int level;
         int _blocks;
         int points = 0;//12.02 Henrik Added
-        int livePoints = 3;//12.02 Henrik Added 
+        int livePoints = 3; //12.02 Henrik Added 
         bool loose = false;
         bool win = false;
         List<Blocks.Block> blocks;
@@ -110,6 +110,7 @@ namespace BlockBreaker
         //startet ein neues Spiel
         private void StartGame()
         {
+            lLivePoints.Content = "♥Balls: " + livePoints;
             if (InGame == false)
             {
                 InGame = true;
@@ -118,10 +119,6 @@ namespace BlockBreaker
                 timer.Interval = TimeSpan.FromMilliseconds(10);
                 timer.Tick += new EventHandler(timer_Tick);
                 timer.Start();
-                if (livePoints == 3)
-                {
-                    livePoints = 2;
-                }
             }
             else return;
 
@@ -149,11 +146,11 @@ namespace BlockBreaker
             {
                 for (int j = 0; j < 9; j++)
                 {
-                    BlockBreaker.Blocks.Block b;
 
+                    Blocks.Block b;
                     if (rnd.NextDouble() > 0.8)
                     {
-                        b = new SpezialBlock();
+                        b = new SpezialBlock(2);
                     }
                     else
                     {
@@ -281,11 +278,10 @@ namespace BlockBreaker
         //Prüft ob eine Kollision mit einer Wand vorliegt
         private void CheckWallCollisions()
         {
-            if (ball.Top > MainCanvas.ActualHeight)
+            if (ball.Top > MainCanvas.ActualHeight)//bottom "wall"
             {
                 StopGame();
                 //12.02 Henrik Added live count
-                lLivePoints.Content = "♥Balls: " + livePoints;
                 if (livePoints <= 0)
                 {
                     lCanvas.Visibility = Visibility; //Visible true
@@ -403,8 +399,6 @@ namespace BlockBreaker
                         case "noHit":
                             break;
                     }
-
-                    MainCanvas.Children.Remove(b);
                     blockhits.Add(b);
                 }
 
@@ -423,10 +417,19 @@ namespace BlockBreaker
 
             foreach (Blocks.Block b in blockhits)
             {
+
                 if (b.IsDistroyed)
                 {
                     lPlayCount.Content = "Points: " + ++points; //Henrik 12.02 set PlayPoints into the label
-                    blocks.Remove(b);
+                    if (b.hit())
+                    {
+                        MainCanvas.Children.Remove(b);
+                        blocks.Remove(b);
+                    }
+                    else
+                    {
+                        b.IsDistroyed = false;
+                    }
                 }
             }
 
@@ -456,7 +459,7 @@ namespace BlockBreaker
             bRestart.Visibility = Visibility;
             button1.Visibility = Visibility;
             button2.Visibility = Visibility;
-            livePoints = 4;
+            livePoints = 3;
             points = 0;
             lCanvas.Visibility = Visibility.Hidden;
             win = false;
