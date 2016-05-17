@@ -1,0 +1,6 @@
+Beschreibung der Ziele und des Produktes,   			Marvin
+Demonstration der Software,					Marvin	
+Ausgewählte Details der Realisierung (Quellcode),		Barth
+Entwicklungsprozess,						Henrik
+Fazit,								Henrik
+Fachgespräch							Zusammen
